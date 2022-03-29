@@ -10,8 +10,10 @@
 
 </head>
 <body>
-    Contact Page.
 
+    @include('layouts.navbar')
+        
     <script src="{{ asset('js/app.js') }}"></script>
+
 </body>
 </html>

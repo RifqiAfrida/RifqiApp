@@ -8,8 +8,10 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    First Post
+
+    @include('layouts.navbar')
 
     <script src="{{ asset('js/app.js') }}"></script>
+
 </body>
 </html>
