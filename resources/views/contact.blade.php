@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+@extends('layouts.app', ['title' => 'Contact Page'])
 
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+@section('content')
+    
+    <h1>Contact</h1>
 
-</head>
-<body>
+    <strong style="color:yellow">Lorem</strong> ipsum dolor, sit amet consectetur adipisicing elit. Consequatur itaque doloribus quibusdam eius nesciunt. Voluptatum, alias, odio architecto, quibusdam magnam dolores corporis quis nesciunt veritatis quam pariatur asperiores. Non, hic?
 
-    @include('layouts.navbar')
-        
-    <script src="{{ asset('js/app.js') }}"></script>
-
-</body>
-</html>
+@endsection

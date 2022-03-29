@@ -22,4 +22,6 @@ Route::view('contact', 'contact');
 
 Route::view('about', 'about');
 
+Route::view('profile', 'profile');
+
 Route::view('posts/first-post', 'posts.show');
